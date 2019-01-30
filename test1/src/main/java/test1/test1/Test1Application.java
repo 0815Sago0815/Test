@@ -14,7 +14,8 @@ public class Test1Application implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		Rechner start = new Rechner();
 		System.out.println(start.rechnen(5,1));
-
+		LOG.info("A Useless Calculator!");
+		LOG.info(start.rechnen(5,1));
 	}
 
 }
